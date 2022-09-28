@@ -437,6 +437,7 @@ declare namespace jspreadsheet {
                   /** (e.g.) "0", "1" ... */
                   rowIndex: string,
                   value: CellValue,
+                  oldValue: CellValue
               ) => void)
             | undefined;
         /** On header change */
